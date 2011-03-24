@@ -1,0 +1,11 @@
+h1. Luiz Tiago .dotfiles for Unix
+
+h2. How install
+
+bc. git clone git@github.com:luiztiago/dotfiles.git
+(mkdir bin on users root folder if doesn't exists)
+cd dotfiles
+rake install
+cd ~
+mkdir bin
+install vcprompt
