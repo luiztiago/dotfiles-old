@@ -1,3 +1,5 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
 alias c=clear
 alias h=history
 alias g=git
