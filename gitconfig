@@ -31,3 +31,5 @@
   ls = ls-files
   ps = push
   pl = pull
+[push]
+  default = tracking
