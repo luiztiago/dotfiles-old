@@ -1,3 +1,6 @@
+[user]
+  name = "luiztiago"
+  email = "luiztiago@gmail.com"
 [color]
   ui = auto
 [color "branch"]
@@ -30,6 +33,6 @@
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
   ps = push
-  pl = pull
+  pl = pull --rebase
 [push]
   default = tracking
