@@ -3,8 +3,12 @@
 alias c=clear
 alias h=history
 alias g=git
+alias :='cd ..'
+alias ::='cd ../..'
+alias :::='cd ../../..'
 
 alias showhiddenfiles='defaults write com.apple.finder AppleShowAllFiles TRUE'
 alias hiddenfiles='defaults write com.apple.finder AppleShowAllFiles FALSE'
 alias finder='killall Finder'
 alias textedit='sudo /Applications/TextEdit.app/Contents/MacOS/TextEdit'
+alias firefox3='/Applications/Firefox3.app/Contents/MacOS/firefox-bin --profile profile'
