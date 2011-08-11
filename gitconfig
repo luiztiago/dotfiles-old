@@ -34,5 +34,6 @@
   ls = ls-files
   ps = push
   pl = pull --rebase
+  sh = stash
 [push]
   default = tracking
